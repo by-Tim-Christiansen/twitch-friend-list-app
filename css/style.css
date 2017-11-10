@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #6441A4;
+  height: 5rem; }
+  .navbar .input-group {
+    width: 20%; }
+
+.container {
+  margin-top: 2rem; }
+  .container .card .profil-pic {
+    width: 5em;
+    float: left;
+    margin-right: 1em; }
