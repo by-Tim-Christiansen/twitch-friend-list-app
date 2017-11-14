@@ -8,5 +8,19 @@
   margin-top: 2rem; }
   .container .card .profil-pic {
     width: 5em;
+    height: 5em;
+    border-radius: 100%;
     float: left;
     margin-right: 1em; }
+  .container .card h4, .container .card p {
+    background-color: rgba(99, 165, 223, 0.5);
+    display: inline-block; }
+  .container .card .btn {
+    color: #ffffff;
+    float: right;
+    margin-top: -1em;
+    transform: scale(1.25); }
+  .container .card .btn-live {
+    background-color: #6441A4; }
+  .container .card .btn-off {
+    background-color: #c8c8c8; }
