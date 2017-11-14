@@ -1,12 +1,37 @@
-.navbar {
-  background-color: #6441A4;
-  height: 5rem; }
-  .navbar .input-group {
-    width: 20%; }
-
-.container {
-  margin-top: 2rem; }
-  .container .card .profil-pic {
-    width: 5em;
-    float: left;
-    margin-right: 1em; }
+body {
+  font-family: 'Roboto', sans-serif; }
+  body .navbar {
+    background-color: #6441A4;
+    height: 5rem; }
+    body .navbar .navbar-brand {
+      font-size: 2em;
+      color: #ffffff; }
+      body .navbar .navbar-brand img {
+        height: 1em; }
+      body .navbar .navbar-brand span {
+        margin-left: 0.25em;
+        letter-spacing: 1.75px;
+        font-weight: 300;
+        text-transform: uppercase;
+        vertical-align: sub; }
+    body .navbar .input-group {
+      width: 20%; }
+  body .container {
+    margin-top: 2rem; }
+    body .container .card .profil-pic {
+      width: 5em;
+      height: 5em;
+      border-radius: 100%;
+      float: left;
+      margin-right: 1em; }
+    body .container .card h4, body .container .card p {
+      display: inline-block; }
+    body .container .card .btn {
+      color: #ffffff;
+      float: right;
+      margin-top: -1em;
+      transform: scale(1.25); }
+    body .container .card .btn-live {
+      background-color: #6441A4; }
+    body .container .card .btn-off {
+      background-color: #c8c8c8; }
