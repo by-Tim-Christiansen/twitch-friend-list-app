@@ -1,29 +1,41 @@
 $t-p: #6441A4
 $w: #ffffff
 $g: #c8c8c8
-.navbar
-  background-color: $t-p
-  height: 5rem
-  .input-group
-    width: 20%
-.container
-  margin-top: 2rem
-  .card
-    .profil-pic
-      width: 5em
-      height: 5em
-      border-radius: 100%
-      float: left
-      margin-right: 1em
-    h4, p
-      background-color: rgba(99, 165, 223, 0.5)
-      display: inline-block
-    .btn
+body
+  font-family: 'Roboto', sans-serif
+  .navbar
+    background-color: $t-p
+    height: 5rem
+    .navbar-brand
+      font-size: 2em
       color: $w
-      float: right
-      margin-top: -1em
-      transform: scale(1.25)
-    .btn-live
-      background-color: $t-p
-    .btn-off
-      background-color: $g
+      img
+        height: 1em
+      span
+        margin-left: 0.25em
+        letter-spacing: 1.75px
+        font-weight: 300
+        text-transform: uppercase
+        vertical-align: sub
+    .input-group
+      width: 20%
+  .container
+    margin-top: 2rem
+    .card
+      .profil-pic
+        width: 5em
+        height: 5em
+        border-radius: 100%
+        float: left
+        margin-right: 1em
+      h4, p
+        display: inline-block
+      .btn
+        color: $w
+        float: right
+        margin-top: -1em
+        transform: scale(1.25)
+      .btn-live
+        background-color: $t-p
+      .btn-off
+        background-color: $g
