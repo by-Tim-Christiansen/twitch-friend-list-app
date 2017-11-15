@@ -5,19 +5,56 @@ body {
     height: 5rem; }
     body .navbar .navbar-brand {
       font-size: 1.25em;
-      color: #ffffff; }
+      color: #ffffff;
+      cursor: default; }
       body .navbar .navbar-brand img {
-        height: auto; }
+        height: auto;
+        cursor: pointer; }
       body .navbar .navbar-brand span {
         margin-left: 0.5em;
         letter-spacing: 3px;
         font-weight: 600;
         text-transform: uppercase;
         vertical-align: sub; }
+      body .navbar .navbar-brand span:last-child {
+        font-size: 0.75em;
+        font-weight: 200;
+        text-transform: uppercase;
+        vertical-align: -3px; }
     body .navbar .input-group {
       width: 20%; }
   body .container {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    cursor: default; }
+    body .container .sort {
+      font-size: 1.25em;
+      font-weight: 300;
+      vertical-align: sub;
+      margin-right: 0.25em;
+      letter-spacing: 0.75px; }
+    body .container .btn {
+      color: #ffffff;
+      letter-spacing: 1.25px;
+      text-transform: uppercase;
+      cursor: pointer; }
+    body .container .filter {
+      border-radius: 100px;
+      margin-right: 0.25em; }
+    body .container .btn-live {
+      background-color: #6441A4; }
+    body .container .btn-live:hover {
+      background-color: #5932a1;
+      transition: background-color 500ms; }
+    body .container .btn-off {
+      background-color: #b5b5b5; }
+    body .container .btn-off:hover {
+      background-color: #8f8f8f;
+      transition: background-color 500ms; }
+    body .container .btn-all {
+      background-color: #137c43; }
+    body .container .btn-all:hover {
+      background-color: #106537;
+      transition: background-color 500ms; }
     body .container .card .profil-pic {
       width: 5em;
       height: 5em;
@@ -26,19 +63,25 @@ body {
       margin-right: 1em; }
     body .container .card h4 {
       font-weight: 600;
-      letter-spacing: 2px;
-      font-size: 1.75em; }
+      letter-spacing: 1.5px;
+      font-size: 1.75em;
+      display: inline-block; }
     body .container .card p {
       font-weight: 300;
-      letter-spacing: 1px; }
-    body .container .card h4, body .container .card p {
+      letter-spacing: 1px;
       display: inline-block; }
     body .container .card .btn {
-      color: #ffffff;
       float: right;
-      margin-top: -1em;
+      margin: -1.5em 1.5em auto auto;
       transform: scale(1.25); }
-    body .container .card .btn-live {
-      background-color: #6441A4; }
-    body .container .card .btn-off {
-      background-color: #c8c8c8; }
+    body .container .made {
+      display: block;
+      color: #000000;
+      opacity: 0.8; }
+      body .container .made .heart, body .container .made .coffee {
+        vertical-align: text-top; }
+      body .container .made a {
+        text-decoration: none;
+        color: #000000; }
+      body .container .made a:hover {
+        color: #6441A4; }
