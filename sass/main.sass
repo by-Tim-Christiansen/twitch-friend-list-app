@@ -1,26 +1,68 @@
 $t-p: #6441A4
+$t-p-h: #5932a1
 $w: #ffffff
-$g: #c8c8c8
+$b: #000000
+$g: #b5b5b5
+$g-h: #8f8f8f
+$a: #137c43
+$a-h: #106537
 body
   font-family: 'Roboto', sans-serif
   .navbar
     background-color: $t-p
     height: 5rem
     .navbar-brand
-      font-size: 2em
+      font-size: 1.25em
       color: $w
+      cursor: default
       img
-        height: 1em
+        height: auto
+        cursor: pointer
       span
-        margin-left: 0.25em
-        letter-spacing: 1.75px
-        font-weight: 300
+        margin-left: 0.5em
+        letter-spacing: 3px
+        font-weight: 600
         text-transform: uppercase
         vertical-align: sub
+      span:last-child
+        font-size: 0.75em
+        font-weight: 200
+        text-transform: uppercase
+        vertical-align: -3px
     .input-group
       width: 20%
   .container
     margin-top: 2rem
+    cursor: default
+    .sort
+      font-size: 1.25em
+      font-weight: 300
+      vertical-align: sub
+      margin-right: 0.25em
+      letter-spacing: 0.75px
+    .btn
+      color: $w
+      letter-spacing: 1.25px
+      text-transform: uppercase
+      cursor: pointer
+    .filter
+      border-radius: 100px
+      margin-right: 0.25em
+    .btn-live
+      background-color: $t-p
+    .btn-live:hover
+      background-color: $t-p-h
+      transition: background-color 500ms
+    .btn-off
+      background-color: $g
+    .btn-off:hover
+      background-color: $g-h
+      transition: background-color 500ms
+    .btn-all
+      background-color: $a
+    .btn-all:hover
+      background-color: $a-h
+      transition: background-color 500ms
     .card
       .profil-pic
         width: 5em
@@ -28,14 +70,27 @@ body
         border-radius: 100%
         float: left
         margin-right: 1em
-      h4, p
+      h4
+        font-weight: 600
+        letter-spacing: 1.5px
+        font-size: 1.75em
+        display: inline-block
+      p
+        font-weight: 300
+        letter-spacing: 1px
         display: inline-block
       .btn
-        color: $w
         float: right
-        margin-top: -1em
+        margin: -1.5em 1.5em auto auto
         transform: scale(1.25)
-      .btn-live
-        background-color: $t-p
-      .btn-off
-        background-color: $g
+    .made
+      display: block
+      color: $b
+      opacity: 0.8
+      .heart, .coffee
+        vertical-align: text-top
+      a
+        text-decoration: none
+        color: $b
+      a:hover
+        color: $t-p
