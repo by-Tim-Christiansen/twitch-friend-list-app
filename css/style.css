@@ -4,14 +4,14 @@ body {
     background-color: #6441A4;
     height: 5rem; }
     body .navbar .navbar-brand {
-      font-size: 2em;
+      font-size: 1.25em;
       color: #ffffff; }
       body .navbar .navbar-brand img {
-        height: 1em; }
+        height: auto; }
       body .navbar .navbar-brand span {
-        margin-left: 0.25em;
-        letter-spacing: 1.75px;
-        font-weight: 300;
+        margin-left: 0.5em;
+        letter-spacing: 3px;
+        font-weight: 600;
         text-transform: uppercase;
         vertical-align: sub; }
     body .navbar .input-group {
@@ -24,6 +24,13 @@ body {
       border-radius: 100%;
       float: left;
       margin-right: 1em; }
+    body .container .card h4 {
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 1.75em; }
+    body .container .card p {
+      font-weight: 300;
+      letter-spacing: 1px; }
     body .container .card h4, body .container .card p {
       display: inline-block; }
     body .container .card .btn {
