@@ -87,7 +87,16 @@ body {
       body .container .made a:hover {
         color: #6441A4; }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 991px) {
+  .card a.btn {
+    font-size: 1em;
+    display: block;
+    margin: 1em auto 0 auto !important;
+    float: none !important;
+    width: 100%;
+    transform: none !important; } }
+
+@media screen and (max-width: 768px) {
   .navbar {
     height: auto !important; }
     .navbar .navbar-brand {

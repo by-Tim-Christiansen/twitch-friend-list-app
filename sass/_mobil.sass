@@ -1,5 +1,16 @@
 $break-mobil: 544px
-@media screen and (max-width: $break-mobil)
+$break-middle: 768px
+$break-big: 991px
+@media screen and (max-width: $break-big)
+  .card
+    a.btn
+      font-size: 1em
+      display: block
+      margin: 1em auto 0 auto !important
+      float: none !important
+      width: 100%
+      transform: none !important
+@media screen and (max-width: $break-middle)
   .navbar
     height: auto !important
     .navbar-brand
