@@ -2,9 +2,9 @@ body {
   font-family: 'Roboto', sans-serif; }
   body .navbar {
     background-color: #6441A4;
-    height: 5rem; }
+    height: auto; }
     body .navbar .navbar-brand {
-      font-size: 1.25em;
+      font-size: 1em;
       color: #ffffff;
       cursor: default; }
       body .navbar .navbar-brand img {
@@ -22,7 +22,8 @@ body {
         text-transform: uppercase;
         vertical-align: -3px; }
     body .navbar .input-group {
-      width: 20%; }
+      width: 20%;
+      min-width: 10rem; }
   body .container {
     margin-top: 2rem;
     cursor: default; }
@@ -85,3 +86,51 @@ body {
         color: #000000; }
       body .container .made a:hover {
         color: #6441A4; }
+
+@media screen and (max-width: 544px) {
+  .navbar {
+    height: auto !important; }
+    .navbar .navbar-brand {
+      display: block;
+      width: 100%; }
+      .navbar .navbar-brand span {
+        font-size: 0.75em;
+        display: block;
+        text-align: center; }
+      .navbar .navbar-brand img {
+        display: block;
+        margin: 1em auto 1em auto; }
+    .navbar .input-group {
+      display: inline-block;
+      min-width: 100% !important; }
+      .navbar .input-group input.form-control {
+        margin-top: 1em;
+        min-width: 100%;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px; }
+      .navbar .input-group span.input-group-btn button {
+        margin-top: 0.5em;
+        display: inline-block;
+        min-width: 100%;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+  .container .sort {
+    margin-bottom: 0.5em;
+    display: block; }
+  .container .card-body {
+    text-align: center; }
+    .container .card-body img.profil-pic {
+      float: none;
+      margin: 0 auto 0.75em auto; }
+    .container .card-body h4, .container .card-body p {
+      display: block;
+      width: 100%; }
+    .container .card-body a.btn {
+      font-size: 1.5em;
+      display: block;
+      margin: 0 auto 0 auto;
+      float: none;
+      width: 100%;
+      transform: none; }
+  .container .made a:link, .container .made a:active, .container .made a:hover, .container .made a:visited {
+    color: #6441A4; } }
