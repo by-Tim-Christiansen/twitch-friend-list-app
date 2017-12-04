@@ -15,8 +15,8 @@ request.onload = function() {
   if (this.status >= 200 && this.status < 400) {
     // Success!
     var data = JSON.parse(this.response);
-    toAppend += "<div class='contaner'> <div class='card'> <div class='card-body'> <img class='profil-pic' src='" + data.stream.channel.logo + "' alt ='channel logo'> <h4 class='card-title'>" + a + "</h4> <br /> <p class='card-text'>" + data.stream.channel.status + "</p> <a class='btn btn-live' href='" + data.stream.channel.url + "' role='button'> LIVE </a> </div> </div> </div>";
-    $(".results").html(toAppend);     
+    toAppend += "<div class='contaner'> <div class='card'> <div class='card-body'> <img class='profil-pic' src='" + data.stream.channel.logo + "' alt ='channel logo'> <h4 class='card-title'>" + name + "</h4> <br /> <p class='card-text'>" + data.stream.channel.status + "</p> <a class='btn btn-live' href='" + data.stream.channel.url + "' role='button'> LIVE </a> </div> </div> </div>";
+    $(".results").html(toAppend);
   }
 
   else {
