@@ -2,7 +2,8 @@ body {
   font-family: 'Roboto', sans-serif; }
   body .navbar {
     background-color: #6441A4;
-    height: auto; }
+    height: auto;
+    padding: 1.5em; }
     body .navbar .navbar-brand {
       font-size: 1em;
       color: #ffffff;
@@ -21,9 +22,6 @@ body {
         font-weight: 200;
         text-transform: uppercase;
         vertical-align: -3px; }
-    body .navbar .input-group {
-      width: 20%;
-      min-width: 10rem; }
   body .container {
     margin-top: 2rem;
     cursor: default; }
@@ -51,11 +49,6 @@ body {
     body .container .btn-off:hover {
       background-color: #8f8f8f;
       transition: background-color 500ms; }
-    body .container .btn-all {
-      background-color: #137c43; }
-    body .container .btn-all:hover {
-      background-color: #106537;
-      transition: background-color 500ms; }
     body .container .card .profil-pic {
       width: 5em;
       height: 5em;
@@ -78,7 +71,8 @@ body {
     body .container .made {
       display: block;
       color: #000000;
-      opacity: 0.8; }
+      opacity: 0.8;
+      padding-bottom: 1.75em; }
       body .container .made .heart, body .container .made .coffee {
         vertical-align: text-top; }
       body .container .made a {
