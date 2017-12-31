@@ -4,13 +4,13 @@ $w: #ffffff
 $b: #000000
 $g: #b5b5b5
 $g-h: #8f8f8f
-$a: #137c43
-$a-h: #106537
+
 body
   font-family: 'Roboto', sans-serif
   .navbar
     background-color: $t-p
     height: auto
+    padding: 1.5em
     .navbar-brand
       font-size: 1em
       color: $w
@@ -29,9 +29,6 @@ body
         font-weight: 200
         text-transform: uppercase
         vertical-align: -3px
-    .input-group
-      width: 20%
-      min-width: 10rem
   .container
     margin-top: 2rem
     cursor: default
@@ -59,11 +56,6 @@ body
     .btn-off:hover
       background-color: $g-h
       transition: background-color 500ms
-    .btn-all
-      background-color: $a
-    .btn-all:hover
-      background-color: $a-h
-      transition: background-color 500ms
     .card
       .profil-pic
         width: 5em
@@ -88,6 +80,7 @@ body
       display: block
       color: $b
       opacity: 0.8
+      padding-bottom: 1.75em
       .heart, .coffee
         vertical-align: text-top
       a
