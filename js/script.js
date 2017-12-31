@@ -47,4 +47,13 @@ $(document).ready(function() {
   for (var i = 0; i < names.length; i++) {
     APIrequest(names[i]);
   }
+  if ($(".filter").click(function() {
+    $.fn.reverseChildren = function() {
+      return this.each(function(){
+      var $this = $(this);
+      $this.children().each(function(){ $this.prepend(this) });
+      });
+    };
+    $(".results").reverseChildren();
+      }));
 });
