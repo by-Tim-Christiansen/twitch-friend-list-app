@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var toAppend = "";
-  var names = ["aDrive", "ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "mckyTV", "ungespielt"];
+  var names = ["aDrive", "ESL_SC2", "OgamingSC2", "cretetion", "sephironlp", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "mckyTV", "ungespielt"];
 
   function callIfOffline(name){
     var request2 = new XMLHttpRequest();
